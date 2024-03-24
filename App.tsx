@@ -19,7 +19,7 @@ export default function App() {
       const startTime = Date.now() - time;
       intervalRef.current = setInterval(() => {
         setTime(Date.now() - startTime);
-      }, 50);
+      }, 100);
     }
     setIsRunning(!isRunning);
   };
